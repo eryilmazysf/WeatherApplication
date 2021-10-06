@@ -1,5 +1,5 @@
 body {
-  background: url("./asset/background.jpeg") no-repeat center center fixed;
+  background: url("./asset/background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -20,7 +20,7 @@ body {
   border: 1px solid gray;
   border-radius: 25px;
   font-size: 24px;
-  background-color: rgb(249, 214, 162);
+  background-color: rgb(235, 226, 213);
 }
 
 .input:focus {
@@ -34,7 +34,7 @@ body {
   border: 1px solid gray;
   padding: 3rem;
   border-radius: 25px;
-  background-color: rgb(249, 214, 162);
+  background-color: rgb(235, 226, 213);
 }
 .city {
   font-size: 30px;
