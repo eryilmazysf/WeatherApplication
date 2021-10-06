@@ -1,6 +1,8 @@
 body {
-  background-image: url("./asset/background.jpeg");
-  background-repeat: no-repeat;
+  background: url("./asset/background.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 .container {
@@ -16,8 +18,9 @@ body {
   width: 75%;
   margin: auto;
   border: 1px solid gray;
-  border-radius: 5px;
+  border-radius: 25px;
   font-size: 24px;
+  background-color: rgb(249, 214, 162);
 }
 
 .input:focus {
@@ -28,6 +31,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid gray;
+  padding: 3rem;
+  border-radius: 25px;
+  background-color: rgb(249, 214, 162);
 }
 .city {
   font-size: 30px;
@@ -54,11 +61,16 @@ body {
 }
 
 .information {
-  font-size: 20px;
+  font-size: 1.7rem;
   font-weight: 200;
+  color: rgb(14, 11, 11);
 }
 .warning {
-  font-size: 20px;
+  font-size: 1.7rem;
   font-weight: 200;
-  color: red;
+  color: black;
+  background-color: rgba(228, 9, 9, 0.899);
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding: 1rem;
 }
